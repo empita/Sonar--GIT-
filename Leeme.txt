@@ -1,0 +1,1 @@
+Prueba de envio y recepccion de tracks, sin intervención de PC, es decir, no interviene la interfaz realizada en QT
