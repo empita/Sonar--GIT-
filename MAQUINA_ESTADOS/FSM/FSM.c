@@ -51,7 +51,7 @@ void scheduler(){
 			estadoFSM = VERIFICANDO_ESTADO_OUTPUT;
 
 		else{
-			estadoFSM = ESCRIBIENDO_ICI;
+			estadoFSM = LEYENDO_PC;//ESCRIBIENDO_ICI;
 			EF_DISABLE_DCL_OUTPUT();
 			iniciar_timeOut_FSM_500();
 		}
@@ -73,7 +73,7 @@ void scheduler(){
 		else if (estadoOutput == OUTPUT_ERROR_TRANSP)
 			estadoFSM = ERROR_TRANSPORTE_OUTPUT;
 		else if (estadoOutput == OUTPUT_OK)
-			{estadoFSM = LEYENDO_ICI;//LEYENDO_PC;
+			{estadoFSM = LEYENDO_PC;
 			//GPIO_ToggleBits(GPIOD, GPIO_Pin_0);
 			}
 		else
@@ -84,7 +84,7 @@ void scheduler(){
 
 	else if(estadoFSM == LEYENDO_PC){
 
-		/*errorPC = leerDatosPC(mensajePCInput, 64);
+		errorPC = leerDatosPC(mensajePCInput, 64);
 
 		if(errorPC != PC_READ_OK){
 			//estadoFSM = EMERGENCIA_PC_INPUT;
@@ -93,10 +93,11 @@ void scheduler(){
 		}
 		else{
 			traduccion_PC_a_ICI();
-			estadoFSM = LEYENDO_ICI;
+			GPIO_ToggleBits(GPIOD, GPIO_Pin_0); //toggleo un led para saber si paso correctamente por esta etapa
+			estadoFSM = ESCRIBIENDO_PC;//LEYENDO_ICI;
 			return;
-		}*/
-		estadoFSM = LEYENDO_ICI;		//para probar la comunicacion sin intervencion de PC. Sacar
+		}
+		estadoFSM = ESCRIBIENDO_PC;//LEYENDO_ICI;		//para probar la comunicacion sin intervencion de PC. Sacar
 		return;
 	}
 
@@ -114,7 +115,7 @@ void scheduler(){
 			estadoFSM = VERIFICANDO_SYSON_DHC;
 		}
 		else if(estadoInput == INPUT_OK)
-			{estadoFSM = ESPERANDO_TIMER_500;//ESCRIBIENDO_PC;
+			{estadoFSM = ESCRIBIENDO_PC;
 			//GPIO_ToggleBits(GPIOD, GPIO_Pin_2);
 			}
 		else
@@ -125,7 +126,8 @@ void scheduler(){
 
 	else if(estadoFSM == ESCRIBIENDO_PC){
 
-		//escribirDatosPC(mensajePCOutput,70);
+		escribirDatosPC(mensajePCOutput,70);
+		GPIO_ToggleBits(GPIOD, GPIO_Pin_2);
 		estadoFSM = ESPERANDO_TIMER_500;
 		return;
 	}

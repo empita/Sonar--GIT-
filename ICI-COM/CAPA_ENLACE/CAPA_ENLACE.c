@@ -399,7 +399,6 @@ void EXTI0_IRQHandler(void){ // Pin RQ
 	EXTI_ClearFlag(EXTI_Line0);
 }
 
-
 /*!
  * @brief Respuesta al pin IDRP
  *
@@ -450,7 +449,7 @@ void EXTI1_IRQHandler(void){  // Pin IDRP
 			if(cont_IN == 0){
 				ACK_STOP(); // es la ultima palabra
 				fin_bloque_IN = SET;
-				total_IN=0;
+				total_IN=0; // reseteo el registro para que no me lea cualquier cosa
 			}
 			else ACK();
 		}
@@ -467,7 +466,6 @@ void EXTI1_IRQHandler(void){  // Pin IDRP
 	EXTI_ClearFlag(EXTI_Line1);
 	return;
 }
-
 
 /*!
  * @brief Respuesta al pin EIP
@@ -607,7 +605,7 @@ void EXTI3_IRQHandler(void){ // Pin ODRP
 			if(cont_OUT == 0){
 				ACK_STOP(); // es la ultima palabra
 				fin_bloque_OUT = SET;
-				total_OUT= 0;
+				total_OUT= 0;//reseteo el registro para que no me escriba cualquier cosa (error que se encontro)
 			}
 			else
 				ACK();
