@@ -33,28 +33,28 @@ void scheduler(){
 
 	else if(estadoFSM == VERIFICANDO_ESTADO_INPUT){
 
-		if(verificarEstadoInput() != INPUT_OK)
-			estadoFSM = VERIFICANDO_ESTADO_INPUT;
+		//if(verificarEstadoInput() != INPUT_OK)
+			//estadoFSM = VERIFICANDO_ESTADO_INPUT;
 
-		else{
+		//else{
 			estadoFSM = VERIFICANDO_ESTADO_OUTPUT;
-			EF_DISABLE_DCL_INPUT();
+			//EF_DISABLE_DCL_INPUT();
 
-		}
+		//}
 
 		return;;
 	}
 
 	else if(estadoFSM == VERIFICANDO_ESTADO_OUTPUT){
 
-		if(verificarEstadoOutput() != OUTPUT_OK)
-			estadoFSM = VERIFICANDO_ESTADO_OUTPUT;
+		//if(verificarEstadoOutput() != OUTPUT_OK)
+			//estadoFSM = VERIFICANDO_ESTADO_OUTPUT;
 
-		else{
+		//else{
 			estadoFSM = LEYENDO_PC;//ESCRIBIENDO_ICI;
-			EF_DISABLE_DCL_OUTPUT();
+			//EF_DISABLE_DCL_OUTPUT();
 			iniciar_timeOut_FSM_500();
-		}
+		//}
 
 		return;;
 	}
@@ -88,7 +88,7 @@ void scheduler(){
 
 		if(errorPC != PC_READ_OK){
 			//estadoFSM = EMERGENCIA_PC_INPUT;
-			estadoFSM = LEYENDO_PC;
+			estadoFSM = ESCRIBIENDO_PC;//LEYENDO_PC;
 			return;
 		}
 		else{
@@ -134,15 +134,15 @@ void scheduler(){
 
 	else if(estadoFSM == ESPERANDO_TIMER_500){
 
-		// SI SE VENCIÓ EL TIMER -> ESTAMOS PASADOS ERROR GRAVE
-		if(timeout_FSM_500 == SET){
+		 //SI SE VENCIÓ EL TIMER -> ESTAMOS PASADOS ERROR GRAVE
+		//if(timeout_FSM_500 == SET){
 			//indicar que no se cumplio con los requerimientos temporales
-			estadoFSM = ESPERANDO_TIMER_500;
-		}
+			//estadoFSM = ESPERANDO_TIMER_500;
+	//	}
 
 		while(timeout_FSM_500 == RESET);
 		timeout_FSM_500 = RESET;
-		estadoFSM = ESCRIBIENDO_ICI;
+		estadoFSM = LEYENDO_PC;//ESCRIBIENDO_ICI;
 		reiniciar_timeOut_FSM_500();
 		//GPIO_ToggleBits(GPIOD, GPIO_Pin_15);		//escribe sobre el puerto I8 de la ICI
 		return;

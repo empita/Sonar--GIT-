@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\Nestor\Desktop\Sonar--GIT-\ENTRADA-SALIDA /I..\..\..\..\..\Users\Nestor\Desktop\Sonar--GIT-\MAQUINA_ESTADOS /I..\..\..\..\..\Users\Nestor\Desktop\Sonar--GIT-\ICI-COM\CAPA_FISICA /I..\..\..\..\..\Users\Nestor\Desktop\Sonar--GIT-\LIB_USB\TEMPORIZADO /I..\..\..\..\..\Users\Nestor /I..\..\..\..\..\Users\Nestor\Desktop\Sonar--GIT-\ICI-COM\CAPA_ENLACE /I..\..\..\..\..\Users\Nestor\Desktop\Sonar--GIT-\cmsis /I..\..\..\..\..\Users\Nestor\Desktop\Sonar--GIT-\ICI-COM\APP\TEMPORIZADO /I..\..\..\..\..\Users\Nestor\Desktop\Sonar--GIT-\ICI-COM /I..\..\..\..\..\Users\Nestor\Desktop\Sonar--GIT-\MAQUINA_ESTADOS\TEMPORIZADOS /I..\..\..\..\..\Users\Nestor\Desktop\Sonar--GIT-\MENSAJES /I..\..\..\..\..\Users\Nestor\Desktop\Sonar--GIT-\ICI-COM\CAPA_ENLACE\AUXILIARES /I..\..\..\..\..\Users\Nestor\Desktop\Sonar--GIT-\ICI-COM\CAPA_FISICA\include /I..\..\..\..\..\Users\Nestor\Desktop\Sonar--GIT-\MAQUINA_ESTADOS\FSM /I..\..\..\..\..\Users\Nestor\Desktop\Sonar--GIT-\cmsis_boot /I..\..\..\..\..\Users\Nestor\Desktop\Sonar--GIT-\LIB_USB /I..\..\..\..\..\Users\Nestor\Desktop\Sonar--GIT-\cmsis_lib\include /I..\..\..\..\..\Users\Nestor\Desktop /I..\..\..\..\..\Users\Nestor\Desktop\Sonar--GIT-\ICI-COM\APP /I..\..\..\..\..\Users\Nestor\Desktop\Sonar--GIT- /I..\..\..\..\..\Users\Nestor\Desktop\Sonar--GIT-\cmsis_lib">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14f177cff80">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\LIB_USB\TEMPORIZADO\timers_PC.h" lastModified="14f571e26f0">
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="14f177d4da0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ICI-COM\CAPA_FISICA\CAPA_FISICA.h" lastModified="14f4c5a2bb0">
+         <include file="..\..\..\ICI-COM\CAPA_FISICA\include\control_IO.h"/>
+         <include file="..\..\..\ICI-COM\CAPA_FISICA\include\configuracion_IO.h"/>
+      </source>
+      <source file="..\..\..\LIB_USB\TEMPORIZADO\timers_PC.c" lastModified="14f57254340">
+         <include file="..\..\..\LIB_USB\TEMPORIZADO\timers_PC.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="14f177d45d0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ICI-COM\APP\TEMPORIZADO\timers_app_sonar.h" lastModified="14f5711bb40">
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="14f177d4da0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ICI-COM\APP\TEMPORIZADO\timers_app_sonar.c" lastModified="14f57254340">
+         <include file="..\..\..\ICI-COM\APP\TEMPORIZADO\timers_app_sonar.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14f177d45d0">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\ICI-COM\CAPA_FISICA\source\configuracion_IO.c" lastModified="153ec159907">
+         <include file="..\..\..\ICI-COM\CAPA_FISICA\include\configuracion_IO.h"/>
+         <include file="..\..\..\ICI-COM\CAPA_FISICA\include\control_IO.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14f177cf7b0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ICI-COM\CAPA_FISICA\include\configuracion_IO.h" lastModified="14cde59b7e0">
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\ICI-COM\CAPA_ENLACE\AUXILIARES\tiempo.h" lastModified="14ea7bd8bb0">
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\ICI-COM\CAPA_ENLACE\CAPA_ENLACE.h" lastModified="14f616e5d78">
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\ICI-COM\CAPA_ENLACE\AUXILIARES\tiempo.h"/>
+         <include file="..\..\..\ICI-COM\CAPA_FISICA\CAPA_FISICA.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="14f177cf7b0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ICI-COM\CAPA_ENLACE\AUXILIARES\tiempo.c" lastModified="14ea7be2fc0">
+         <include file="..\..\..\ICI-COM\CAPA_ENLACE\AUXILIARES\tiempo.h"/>
+      </source>
+      <source file="..\..\..\ENTRADA-SALIDA\io_lib.h" lastModified="14f4cda96b0">
+      </source>
+      <source file="..\..\..\ICI-COM\CAPA_ENLACE\CAPA_ENLACE.c" lastModified="155262cc421">
+         <include file="..\..\..\ICI-COM\CAPA_ENLACE\CAPA_ENLACE.h"/>
+         <include file="..\..\..\LIB_USB\consola.h"/>
+      </source>
+      <source file="..\..\..\ENTRADA-SALIDA\io_lib.c" lastModified="1547c49584c">
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\ENTRADA-SALIDA\io_lib.h"/>
+      </source>
+      <source file="..\..\..\LIB_USB\consola_PHY.h" lastModified="14f43829720">
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\MAQUINA_ESTADOS\TEMPORIZADOS\temporizado.h" lastModified="14f57254340">
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="14f177cfb98">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="14f177d1ec0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\LIB_USB\consola_PHY.c" lastModified="1553b025513">
+         <include file="..\..\..\LIB_USB\consola_PHY.h"/>
+      </source>
+      <source file="..\..\..\ICI-COM\CAPA_FISICA\source\control_IO.c" lastModified="1537f8c8ce8">
+         <include file="..\..\..\ICI-COM\CAPA_FISICA\include\control_IO.h"/>
+      </source>
+      <source file="..\..\..\MAQUINA_ESTADOS\TEMPORIZADOS\temporizado.c" lastModified="1537a9a20a8">
+         <include file="..\..\..\MAQUINA_ESTADOS\TEMPORIZADOS\temporizado.h"/>
+      </source>
+      <source file="..\..\..\ICI-COM\CAPA_FISICA\include\control_IO.h" lastModified="153d1ac27f6">
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="14f177cfb98">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="14f177d1ec0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="14b5e21fe08">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="14f177d0750">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="14f177cff80">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\main.h" lastModified="14f46eb4948">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="14f46f140a0">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="14e2b107258">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="1547cb794c2">
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\MENSAJES\mensajes.h"/>
+         <include file="..\..\..\LIB_USB\consola.h"/>
+         <include file="..\..\..\ICI-COM\APP\app_sonar.h"/>
+         <include file="..\..\..\ENTRADA-SALIDA\io_lib.h"/>
+         <include file="..\..\..\MAQUINA_ESTADOS\FSM\FSM.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="14f177cfb98">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h" lastModified="14f177d3630">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="14f177d3630">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\LIB_USB\consola.h" lastModified="14fa7c73b00">
+         <include file="..\..\..\LIB_USB\consola_PHY.h"/>
+         <include file="..\..\..\LIB_USB\TEMPORIZADO\timers_PC.h"/>
+      </source>
+      <source file="..\..\..\LIB_USB\consola.c" lastModified="15549d60eed">
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\LIB_USB\consola.h"/>
+      </source>
+      <source file="..\..\..\MENSAJES\mensajes.h" lastModified="14f43d0fd70">
+      </source>
+      <source file="..\..\..\MAQUINA_ESTADOS\FSM\FSM.h" lastModified="14f5c2eef80">
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\MAQUINA_ESTADOS\TEMPORIZADOS\temporizado.h"/>
+         <include file="..\..\..\MENSAJES\mensajes.h"/>
+         <include file="..\..\..\LIB_USB\consola.h"/>
+         <include file="..\..\..\ICI-COM\APP\app_sonar.h"/>
+         <include file="..\..\..\ENTRADA-SALIDA\io_lib.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="14f177cfb98">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\MENSAJES\mensajes.c" lastModified="1535b7cffa2">
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\MENSAJES\mensajes.h"/>
+      </source>
+      <source file="..\..\..\ICI-COM\APP\app_sonar.h" lastModified="153804cd0df">
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\ICI-COM\APP\TEMPORIZADO\timers_app_sonar.h"/>
+         <include file="..\..\..\ICI-COM\CAPA_ENLACE\CAPA_ENLACE.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="14b5e1d1820">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="14f177d1ec0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\MAQUINA_ESTADOS\FSM\FSM.c" lastModified="1554a865bf5">
+         <include file="..\..\..\MAQUINA_ESTADOS\FSM\FSM.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14f177cf7b0">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="14f177d1ec0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14b7e8a6cc0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ICI-COM\APP\app_sonar.c" lastModified="155073594eb">
+         <include file="..\..\..\ICI-COM\APP\app_sonar.h"/>
+         <include file="..\..\..\MENSAJES\mensajes.h"/>
+         <include file="..\..\..\ENTRADA-SALIDA\io_lib.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="14f177d0750">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+      </source>
+   </includePath>
+</dependencies>

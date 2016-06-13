@@ -4,6 +4,7 @@
 #define BAUD_RATE 115200
 //#define BAUD_RATE 2000000
 
+int z;
 
 DMA_InitTypeDef  DMA_UART_TX_InitStructure; // La mantengo como variable global para cargar sus
 									// parametros solo una vez, y luego modificar solo la
@@ -202,8 +203,9 @@ void configurar_UART_RX_DMA(){
 	DMA_UART_RX_InitStructure.DMA_Memory0BaseAddr =(uint32_t)0;
 
 	DMA_Init(DMA1_Stream2,&DMA_UART_RX_InitStructure);
-	DMA_ITConfig(DMA1_Stream2, DMA_IT_TC, ENABLE);
 	USART_DMACmd(UART4, USART_DMAReq_Rx, ENABLE);
+	DMA_ITConfig(DMA1_Stream2, DMA_IT_TC, ENABLE);
+
 
 }
 
@@ -230,9 +232,13 @@ void configurar_UART_RX_DMA(){
 }
 
 void DMA1_Stream2_IRQHandler(){
+//Interrumpe cuando se llena el buffer en memoria de 64 palabras 8 bits.
+
+	DMA_ClearITPendingBit(DMA1_Stream2, DMA_IT_TCIF2);
 	USART_DMACmd(UART4, USART_DMAReq_Rx, DISABLE);
-	DMA_ClearFlag(DMA1_Stream2,DMA_FLAG_TCIF2); // Baja la bandera del DMA
 	USART_ClearFlag(UART4, USART_FLAG_TC);  // Baja la bandera de la UART
+	DMA_ClearFlag(DMA1_Stream2,DMA_FLAG_TCIF2); // Baja la bandera del DMA
+
 	mensajeRXListo = SET;
 }
 

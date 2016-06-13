@@ -4,10 +4,10 @@
 <window>
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.debug.ui.ExpressionView"/>
-<orientation position="512" view="org.coocox.component.ui.ComponentView"/>
 <orientation position="512" view="org.coocox.builder.ui.views.ProjectView"/>
-<orientation position="512" view="org.coocox.builder.ui.exampleView"/>
+<orientation position="512" view="org.coocox.component.ui.ComponentView"/>
 <orientation position="512" view="org.coocox.codebugger.trace.ui.traceview"/>
+<orientation position="512" view="org.coocox.builder.ui.exampleView"/>
 <orientation position="512" view="org.eclipse.debug.ui.DebugView"/>
 <orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
 <orientation position="512" view="org.coocox.coassistant.view.CoAssistantView_debug"/>
@@ -27,48 +27,33 @@
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Nestor/Desktop/VERSION 5/main.c" title="main.c" tooltip="C:/Users/Nestor/Desktop/VERSION 5/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SONAR/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="590" selectionTopPixel="135"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="FSM.c" partName="FSM.c" path="C:/Users/Nestor/Desktop/VERSION 5/MAQUINA_ESTADOS/FSM/FSM.c" title="FSM.c" tooltip="C:/Users/Nestor/Desktop/VERSION 5/MAQUINA_ESTADOS/FSM/FSM.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="FSM.c" partName="FSM.c" path="C:/Users/Nestor/Desktop/Sonar--GIT-/MAQUINA_ESTADOS/FSM/FSM.c" title="FSM.c" tooltip="C:/Users/Nestor/Desktop/Sonar--GIT-/MAQUINA_ESTADOS/FSM/FSM.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SONAR/MAQUINA_ESTADOS/FSM/FSM.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="115" selectionTopPixel="2"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="69" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="app_sonar.c" partName="app_sonar.c" path="C:/Users/Nestor/Desktop/VERSION 5/ICI-COM/APP/app_sonar.c" title="app_sonar.c" tooltip="C:/Users/Nestor/Desktop/VERSION 5/ICI-COM/APP/app_sonar.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SONAR/ICI-COM/APP/app_sonar.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1403" selectionTopPixel="692"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="consola_PHY.c" partName="consola_PHY.c" path="C:/Users/Nestor/Desktop/Sonar--GIT-/LIB_USB/consola_PHY.c" title="consola_PHY.c" tooltip="C:/Users/Nestor/Desktop/Sonar--GIT-/LIB_USB/consola_PHY.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SONAR/LIB_USB/consola_PHY.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="4090" selectionTopPixel="1883"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="CAPA_ENLACE.c" partName="CAPA_ENLACE.c" path="C:/Users/Nestor/Desktop/VERSION 5/ICI-COM/CAPA_ENLACE/CAPA_ENLACE.c" title="CAPA_ENLACE.c" tooltip="C:/Users/Nestor/Desktop/VERSION 5/ICI-COM/CAPA_ENLACE/CAPA_ENLACE.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SONAR/ICI-COM/CAPA_ENLACE/CAPA_ENLACE.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="10629" selectionTopPixel="7377"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="io_lib.c" partName="io_lib.c" path="C:/Users/Nestor/Desktop/VERSION 5/ENTRADA-SALIDA/io_lib.c" title="io_lib.c" tooltip="C:/Users/Nestor/Desktop/VERSION 5/ENTRADA-SALIDA/io_lib.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SONAR/ENTRADA-SALIDA/io_lib.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="29" selectionOffset="204" selectionTopPixel="17"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="consola.c" partName="consola.c" path="C:/Users/Nestor/Desktop/VERSION 5/LIB_USB/consola.c" title="consola.c" tooltip="C:/Users/Nestor/Desktop/VERSION 5/LIB_USB/consola.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="consola.c" partName="consola.c" path="C:/Users/Nestor/Desktop/Sonar--GIT-/LIB_USB/consola.c" title="consola.c" tooltip="C:/Users/Nestor/Desktop/Sonar--GIT-/LIB_USB/consola.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SONAR/LIB_USB/consola.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="19" selectionOffset="48" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2314" selectionTopPixel="293"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="configuracion_IO.c" partName="configuracion_IO.c" path="C:/Users/Nestor/Desktop/VERSION 5/ICI-COM/CAPA_FISICA/source/configuracion_IO.c" title="configuracion_IO.c" tooltip="C:/Users/Nestor/Desktop/VERSION 5/ICI-COM/CAPA_FISICA/source/configuracion_IO.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SONAR/ICI-COM/CAPA_FISICA/src/configuracion_IO.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="2316" selectionTopPixel="1666"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Nestor/Desktop/Sonar--GIT-/main.c" title="main.c" tooltip="C:/Users/Nestor/Desktop/Sonar--GIT-/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SONAR/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="692" selectionTopPixel="120"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="CAPA_ENLACE.h" partName="CAPA_ENLACE.h" path="C:/Users/Nestor/Desktop/VERSION 5/ICI-COM/CAPA_ENLACE/CAPA_ENLACE.h" title="CAPA_ENLACE.h" tooltip="C:/Users/Nestor/Desktop/VERSION 5/ICI-COM/CAPA_ENLACE/CAPA_ENLACE.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SONAR/ICI-COM/CAPA_ENLACE/CAPA_ENLACE.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="504" selectionTopPixel="0"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="mensajes.c" partName="mensajes.c" path="C:/Users/Nestor/Desktop/Sonar--GIT-/MENSAJES/mensajes.c" title="mensajes.c" tooltip="C:/Users/Nestor/Desktop/Sonar--GIT-/MENSAJES/mensajes.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SONAR/MENSAJES/mensajes.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="19" selectionOffset="1245" selectionTopPixel="680"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="app_sonar.h" partName="app_sonar.h" path="C:/Users/Nestor/Desktop/VERSION 5/ICI-COM/APP/app_sonar.h" title="app_sonar.h" tooltip="C:/Users/Nestor/Desktop/VERSION 5/ICI-COM/APP/app_sonar.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SONAR/ICI-COM/APP/app_sonar.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="21" selectionOffset="669" selectionTopPixel="58"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="temporizado.c" partName="temporizado.c" path="C:/Users/Nestor/Desktop/Sonar--GIT-/MAQUINA_ESTADOS/TEMPORIZADOS/temporizado.c" title="temporizado.c" tooltip="C:/Users/Nestor/Desktop/Sonar--GIT-/MAQUINA_ESTADOS/TEMPORIZADOS/temporizado.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SONAR/MAQUINA_ESTADOS/TEMPORIZADOS/temporizado.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="26" selectionOffset="546" selectionTopPixel="150"/>
 </editor>
 </editors>
 <views>
@@ -81,16 +66,23 @@
 <viewState/>
 </view>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
-<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
-<selection>
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="2">
+<expanded>
 <element path="/SONAR"/>
+<element path="/SONAR/LIB_USB"/>
+<element path="/SONAR/MAQUINA_ESTADOS"/>
+<element path="/SONAR/MAQUINA_ESTADOS/FSM"/>
+<element path="/SONAR/MAQUINA_ESTADOS/TEMPORIZADOS"/>
+</expanded>
+<selection>
+<element path="/SONAR/MAQUINA_ESTADOS/FSM/FSM.c"/>
 </selection>
 </viewState>
 </view>
 <view id="org.eclipse.search.ui.views.SearchView" partName="Search">
 <viewState isPinned="false">
-<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
 <view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
 </viewState>
 </view>
 <view id="org.coocox.codebugger.trace.ui.traceview" partName="Semihosting">
@@ -156,7 +148,7 @@
 <fastViewBars>
 <fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@613400" orientation="512" selectedTabId="org.eclipse.search.ui.views.SearchView" style="0">
 <fastViews>
-<view id="org.eclipse.search.ui.views.SearchView" ratio="0.29827198"/>
+<view id="org.eclipse.search.ui.views.SearchView" ratio="0.20210367"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
@@ -170,7 +162,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@613400" ratio="0.75" ratioLeft="978" ratioRight="326" relationship="2" relative="org.eclipse.ui.internal.ViewStack@f151b3">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@613400" ratio="0.8420664" ratioLeft="1141" ratioRight="214" relationship="2" relative="org.eclipse.ui.internal.ViewStack@f151b3">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
@@ -191,7 +183,7 @@
 </folder>
 </info>
 <info part="org.coocox.builder.ui.exampleView" ratio="0.20256025" ratioLeft="269" ratioRight="1059" relationship="2" relative="org.eclipse.ui.internal.ViewStack@f151b3"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@493d8f" ratio="0.7964015" ratioLeft="841" ratioRight="215" relationship="2" relative="org.coocox.builder.ui.exampleView">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@493d8f" ratio="0.75994694" ratioLeft="573" ratioRight="181" relationship="2" relative="org.coocox.builder.ui.exampleView">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.coocox.component.ui.Help" label="Help"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
@@ -273,40 +265,57 @@
 <view id="org.eclipse.debug.ui.BreakpointView"/>
 <fastViewBars/>
 <viewLayoutRec closeable="false" id="org.eclipse.debug.ui.DebugView"/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@173ab0d">&#x0A;<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@173ab0d">
+<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
+<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@10fe6bb" ratio="0.6944649" ratioLeft="941" ratioRight="414" relationship="2" relative="org.eclipse.ui.internal.ViewStack@173ab0d">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@10fe6bb" ratio="0.6944649" ratioLeft="941" ratioRight="414" relationship="2" relative="org.eclipse.ui.internal.ViewStack@173ab0d">
+<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
+<page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
 <page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
 <page content="org.coocox.coassistant.view.CoAssistantView_debug" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@173ab0d">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@173ab0d">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1b0d8be" ratio="0.75120384" ratioLeft="468" ratioRight="155" relationship="4" relative="org.eclipse.ui.internal.ViewStack@173ab0d">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1b0d8be" ratio="0.75120384" ratioLeft="468" ratioRight="155" relationship="4" relative="org.eclipse.ui.internal.ViewStack@173ab0d">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@165c08f" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1b0d8be">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@165c08f" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1b0d8be">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@145191c" ratio="0.61767954" ratioLeft="559" ratioRight="346" relationship="2" relative="org.eclipse.ui.internal.ViewStack@173ab0d">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@145191c" ratio="0.61767954" ratioLeft="559" ratioRight="346" relationship="2" relative="org.eclipse.ui.internal.ViewStack@173ab0d">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
@@ -320,165 +329,166 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SONAR/MAQUINA_ESTADOS/FSM/FSM.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SONAR/ICI-COM/APP/app_sonar.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SONAR/ICI-COM/CAPA_ENLACE/CAPA_ENLACE.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SONAR/LIB_USB/consola_PHY.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SONAR/LIB_USB/consola.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SONAR/ICI-COM/APP/app_sonar.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SONAR/ICI-COM/CAPA_ENLACE/CAPA_ENLACE.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SONAR/ICI-COM/CAPA_ENLACE/CAPA_ENLACE.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SONAR/MAQUINA_ESTADOS/FSM/FSM.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SONAR/MENSAJES/mensajes.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SONAR/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SONAR/ICI-COM/CAPA_ENLACE/CAPA_ENLACE.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SONAR/ICI-COM/APP/app_sonar.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SONAR/LIB_USB/consola.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SONAR/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SONAR/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SONAR/MAQUINA_ESTADOS/TEMPORIZADOS/temporizado.c"/>
 </editors>
-<item historyLabel="app_sonar.c" index="1">
-<position info="not_deleted" x="1866" y="16"/>
+<item historyLabel="consola_PHY.c" index="0">
+<position info="not_deleted" x="8407" y="0"/>
 </item>
 <item historyLabel="CAPA_ENLACE.c" index="2">
-<position info="not_deleted" x="14358" y="0"/>
+<position info="not_deleted" x="9135" y="0"/>
 </item>
-<item historyLabel="FSM.c" index="0">
-<position info="not_deleted" x="1278" y="0"/>
+<item historyLabel="consola_PHY.c" index="0">
+<position info="not_deleted" x="8407" y="0"/>
 </item>
-<item historyLabel="app_sonar.c" index="1">
-<position info="not_deleted" x="1866" y="16"/>
+<item historyLabel="FSM.c" index="3">
+<position info="not_deleted" x="1917" y="0"/>
 </item>
-<item historyLabel="CAPA_ENLACE.c" index="2">
-<position info="not_deleted" x="14358" y="0"/>
+<item historyLabel="consola.c" index="1">
+<position info="not_deleted" x="1335" y="0"/>
 </item>
-<item historyLabel="app_sonar.c" index="1">
-<position info="not_deleted" x="1866" y="16"/>
+<item historyLabel="consola_PHY.c" index="0">
+<position info="not_deleted" x="7804" y="13"/>
 </item>
-<item historyLabel="CAPA_ENLACE.c" index="2">
-<position info="not_deleted" x="14358" y="0"/>
+<item historyLabel="mensajes.c" index="4">
+<position info="not_deleted" x="1245" y="19"/>
 </item>
-<item historyLabel="app_sonar.c" index="1">
-<position info="not_deleted" x="1866" y="16"/>
+<item historyLabel="FSM.c" index="3">
+<position info="not_deleted" x="1918" y="0"/>
 </item>
-<item historyLabel="CAPA_ENLACE.c" index="2">
-<position info="not_deleted" x="14358" y="0"/>
+<item historyLabel="consola.c" index="1">
+<position info="not_deleted" x="1145" y="0"/>
 </item>
-<item historyLabel="CAPA_ENLACE.c" index="2">
-<position info="not_deleted" x="14488" y="0"/>
+<item historyLabel="consola_PHY.c" index="0">
+<position info="not_deleted" x="4437" y="0"/>
 </item>
-<item historyLabel="app_sonar.c" index="1">
-<position info="not_deleted" x="1866" y="16"/>
+<item historyLabel="FSM.c" index="3">
+<position info="not_deleted" x="1223" y="0"/>
 </item>
-<item historyLabel="FSM.c" index="0">
-<position info="not_deleted" x="4004" y="0"/>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="470" y="0"/>
 </item>
-<item historyLabel="consola.c" index="3">
-<position info="not_deleted" x="2300" y="26"/>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="263" y="0"/>
 </item>
-<item historyLabel="CAPA_ENLACE.c" index="2">
-<position info="not_deleted" x="14488" y="0"/>
+<item historyLabel="FSM.c" index="3">
+<position info="not_deleted" x="1223" y="0"/>
 </item>
-<item historyLabel="app_sonar.c" index="1">
-<position info="not_deleted" x="1866" y="16"/>
+<item historyLabel="consola_PHY.c" index="0">
+<position info="not_deleted" x="4437" y="0"/>
 </item>
-<item historyLabel="CAPA_ENLACE.c" index="2">
-<position info="not_deleted" x="14488" y="0"/>
+<item historyLabel="mensajes.c" index="4">
+<position info="not_deleted" x="1245" y="19"/>
 </item>
-<item historyLabel="app_sonar.h" index="4">
-<position info="not_deleted" x="430" y="18"/>
+<item historyLabel="consola_PHY.c" index="0">
+<position info="not_deleted" x="4437" y="0"/>
 </item>
-<item historyLabel="CAPA_ENLACE.h" index="5">
-<position/>
+<item historyLabel="FSM.c" index="3">
+<position info="not_deleted" x="1918" y="0"/>
 </item>
-<item historyLabel="app_sonar.c" index="1">
-<position info="not_deleted" x="1866" y="16"/>
+<item historyLabel="consola.c" index="6">
+<position info="not_deleted" x="1146" y="0"/>
 </item>
-<item historyLabel="FSM.c" index="0">
-<position info="not_deleted" x="3733" y="0"/>
+<item historyLabel="consola_PHY.c" index="0">
+<position info="not_deleted" x="4090" y="16"/>
 </item>
-<item historyLabel="app_sonar.c" index="1">
-<position info="not_deleted" x="4740" y="30"/>
+<item historyLabel="FSM.c" index="3">
+<position info="not_deleted" x="1917" y="0"/>
 </item>
-<item historyLabel="FSM.c" index="0">
-<position info="not_deleted" x="3733" y="0"/>
+<item historyLabel="consola.c" index="6">
+<position info="not_deleted" x="1049" y="11"/>
 </item>
-<item historyLabel="CAPA_ENLACE.c" index="2">
-<position info="not_deleted" x="14488" y="0"/>
+<item historyLabel="consola_PHY.c" index="0">
+<position info="not_deleted" x="4639" y="0"/>
 </item>
-<item historyLabel="app_sonar.c" index="1">
-<position info="not_deleted" x="4740" y="30"/>
+<item historyLabel="consola.c" index="6">
+<position info="not_deleted" x="1365" y="0"/>
 </item>
-<item historyLabel="FSM.c" index="0">
-<position info="not_deleted" x="3740" y="0"/>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="263" y="0"/>
 </item>
-<item historyLabel="app_sonar.c" index="1">
-<position info="not_deleted" x="4761" y="0"/>
+<item historyLabel="consola_PHY.c" index="0">
+<position info="not_deleted" x="4639" y="0"/>
 </item>
-<item historyLabel="FSM.c" index="0">
-<position info="not_deleted" x="1279" y="0"/>
+<item historyLabel="consola.c" index="6">
+<position info="not_deleted" x="1332" y="0"/>
 </item>
-<item historyLabel="app_sonar.c" index="1">
-<position info="not_deleted" x="2741" y="0"/>
+<item historyLabel="consola_PHY.c" index="0">
+<position info="not_deleted" x="7804" y="13"/>
 </item>
-<item historyLabel="CAPA_ENLACE.h" index="5">
-<position/>
+<item historyLabel="consola.c" index="6">
+<position info="not_deleted" x="1338" y="0"/>
 </item>
-<item historyLabel="app_sonar.c" index="1">
-<position info="not_deleted" x="2741" y="0"/>
+<item historyLabel="consola_PHY.c" index="0">
+<position info="not_deleted" x="7804" y="13"/>
 </item>
-<item historyLabel="CAPA_ENLACE.c" index="2">
-<position info="not_deleted" x="14488" y="0"/>
+<item historyLabel="FSM.c" index="3">
+<position info="not_deleted" x="1917" y="0"/>
 </item>
-<item historyLabel="app_sonar.c" index="1">
-<position info="not_deleted" x="2753" y="0"/>
+<item historyLabel="consola_PHY.c" index="0">
+<position info="not_deleted" x="7804" y="13"/>
 </item>
-<item historyLabel="main.c" index="6">
-<position info="not_deleted" x="590" y="0"/>
+<item historyLabel="consola.c" index="6">
+<position info="not_deleted" x="1338" y="0"/>
 </item>
-<item historyLabel="app_sonar.c" index="1">
-<position info="not_deleted" x="104" y="0"/>
+<item historyLabel="main.c" index="8">
+<position info="not_deleted" x="263" y="0"/>
 </item>
-<item historyLabel="CAPA_ENLACE.c" index="2">
-<position info="not_deleted" x="10497" y="8"/>
+<item historyLabel="consola_PHY.c" index="0">
+<position info="not_deleted" x="7804" y="13"/>
 </item>
-<item historyLabel="app_sonar.c" index="1">
-<position info="not_deleted" x="1170" y="8"/>
+<item historyLabel="FSM.c" index="3">
+<position info="not_deleted" x="3011" y="0"/>
 </item>
-<item historyLabel="CAPA_ENLACE.c" index="2">
-<position info="not_deleted" x="1599" y="8"/>
+<item historyLabel="consola.c" index="6">
+<position info="not_deleted" x="2312" y="0"/>
 </item>
-<item historyLabel="app_sonar.c" index="1">
-<position info="not_deleted" x="1170" y="8"/>
+<item historyLabel="consola_PHY.c" index="0">
+<position info="not_deleted" x="4090" y="16"/>
 </item>
-<item historyLabel="FSM.c" index="0">
-<position info="not_deleted" x="115" y="9"/>
+<item historyLabel="FSM.c" index="3">
+<position info="not_deleted" x="3746" y="0"/>
 </item>
-<item historyLabel="CAPA_ENLACE.c" index="2">
-<position info="not_deleted" x="1599" y="8"/>
+<item historyLabel="main.c" index="8">
+<position info="not_deleted" x="692" y="0"/>
 </item>
-<item historyLabel="consola.c" index="3">
-<position info="not_deleted" x="48" y="19"/>
+<item historyLabel="FSM.c" index="3">
+<position info="not_deleted" x="56" y="0"/>
 </item>
-<item historyLabel="CAPA_ENLACE.h" index="7">
-<position info="not_deleted" x="504" y="9"/>
+<item historyLabel="temporizado.c" index="9">
+<position info="not_deleted" x="546" y="26"/>
 </item>
-<item historyLabel="FSM.c" index="0">
-<position info="not_deleted" x="115" y="9"/>
+<item historyLabel="main.c" index="8">
+<position info="not_deleted" x="692" y="0"/>
 </item>
-<item historyLabel="app_sonar.c" index="1">
-<position info="not_deleted" x="1170" y="8"/>
+<item historyLabel="FSM.c" index="3">
+<position info="not_deleted" x="3013" y="0"/>
 </item>
-<item historyLabel="CAPA_ENLACE.c" index="2">
-<position info="not_deleted" x="10513" y="7"/>
+<item historyLabel="consola.c" index="6">
+<position info="not_deleted" x="2314" y="0"/>
 </item>
-<item historyLabel="app_sonar.c" index="1">
-<position info="not_deleted" x="531" y="0"/>
+<item historyLabel="consola_PHY.c" index="0">
+<position info="not_deleted" x="4090" y="16"/>
 </item>
-<item historyLabel="app_sonar.h" index="8">
-<position info="not_deleted" x="669" y="21"/>
+<item historyLabel="consola.c" index="6">
+<position info="not_deleted" x="2314" y="0"/>
 </item>
-<item historyLabel="CAPA_ENLACE.c" index="2">
-<position info="not_deleted" x="10513" y="7"/>
+<item historyLabel="consola_PHY.c" index="0">
+<position info="not_deleted" x="4090" y="16"/>
 </item>
-<item historyLabel="app_sonar.c" index="1">
-<position info="not_deleted" x="1403" y="0"/>
+<item historyLabel="temporizado.c" index="9">
+<position info="not_deleted" x="546" y="26"/>
 </item>
-<item active="true" historyLabel="CAPA_ENLACE.c" index="2">
-<position info="not_deleted" x="10513" y="7"/>
+<item active="true" historyLabel="FSM.c" index="3">
+<position info="not_deleted" x="3013" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -487,33 +497,20 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="temporizado.c" tooltip="SONAR/MAQUINA_ESTADOS/TEMPORIZADOS/temporizado.c">
+<persistable path="/SONAR/MAQUINA_ESTADOS/TEMPORIZADOS/temporizado.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mensajes.c" tooltip="SONAR/MENSAJES/mensajes.c">
+<persistable path="/SONAR/MENSAJES/mensajes.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="SONAR/main.c">
 <persistable path="/SONAR/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="consola_PHY.c" tooltip="SONAR/LIB_USB/consola_PHY.c">
-<persistable path="/SONAR/LIB_USB/consola_PHY.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="consola.c" tooltip="SONAR/LIB_USB/consola.c">
 <persistable path="/SONAR/LIB_USB/consola.c"/>
 </file>
-<file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
-<persistable>&#x0A;<subPage/>
-</persistable>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="CAPA_ENLACE.h" tooltip="UNICIT-AR-v2/CAPA_ENLACE/CAPA_ENLACE.h">
-<persistable path="/UNICIT-AR-v2/CAPA_ENLACE/CAPA_ENLACE.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="app_sonar.h" tooltip="SONAR/ICI-COM/APP/app_sonar.h">
-<persistable path="/SONAR/ICI-COM/APP/app_sonar.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="CAPA_ENLACE.h" tooltip="SONAR/ICI-COM/CAPA_ENLACE/CAPA_ENLACE.h">
-<persistable path="/SONAR/ICI-COM/CAPA_ENLACE/CAPA_ENLACE.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="configuracion_IO.c" tooltip="SONAR/ICI-COM/CAPA_FISICA/src/configuracion_IO.c">
-<persistable path="/SONAR/ICI-COM/CAPA_FISICA/src/configuracion_IO.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="FSM.h" tooltip="SONAR/MAQUINA_ESTADOS/FSM/FSM.h">
-<persistable path="/SONAR/MAQUINA_ESTADOS/FSM/FSM.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx.h" tooltip="SONAR/LIBRERIA_CMSIS/cmsis_boot/stm32f4xx.h">
+<persistable path="/SONAR/LIBRERIA_CMSIS/cmsis_boot/stm32f4xx.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="io_lib.c" tooltip="SONAR/ENTRADA-SALIDA/io_lib.c">
 <persistable path="/SONAR/ENTRADA-SALIDA/io_lib.c"/>
@@ -521,17 +518,26 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mensajes.h" tooltip="SONAR/MENSAJES/mensajes.h">
 <persistable path="/SONAR/MENSAJES/mensajes.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="temporizado.c" tooltip="SONAR/MAQUINA_ESTADOS/TEMPORIZADOS/temporizado.c">
-<persistable path="/SONAR/MAQUINA_ESTADOS/TEMPORIZADOS/temporizado.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="consola_PHY.h" tooltip="SONAR/LIB_USB/consola_PHY.h">
+<persistable path="/SONAR/LIB_USB/consola_PHY.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mensajes.c" tooltip="SONAR/MENSAJES/mensajes.c">
-<persistable path="/SONAR/MENSAJES/mensajes.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="consola_PHY.c" tooltip="SONAR/LIB_USB/consola_PHY.c">
+<persistable path="/SONAR/LIB_USB/consola_PHY.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="temporizado.h" tooltip="SONAR/MAQUINA_ESTADOS/TEMPORIZADOS/temporizado.h">
-<persistable path="/SONAR/MAQUINA_ESTADOS/TEMPORIZADOS/temporizado.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32_ub_uart_dma.c" tooltip="Demo_77/ub_lib/stm32_ub_uart_dma.c">
+<persistable path="/Demo_77/ub_lib/stm32_ub_uart_dma.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="CAPA_ENLACE.c" tooltip="SONAR/ICI-COM/CAPA_ENLACE/CAPA_ENLACE.c">
-<persistable path="/SONAR/ICI-COM/CAPA_ENLACE/CAPA_ENLACE.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f4xx.c" tooltip="SONAR/LIBRERIA_CMSIS/cmsis_boot/startup/startup_stm32f4xx.c">
+<persistable path="/SONAR/LIBRERIA_CMSIS/cmsis_boot/startup/startup_stm32f4xx.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="control_IO.c" tooltip="SONAR/ICI-COM/CAPA_FISICA/src/control_IO.c">
+<persistable path="/SONAR/ICI-COM/CAPA_FISICA/src/control_IO.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="CAPA_ENLACE.h" tooltip="SONAR/ICI-COM/CAPA_ENLACE/CAPA_ENLACE.h">
+<persistable path="/SONAR/ICI-COM/CAPA_ENLACE/CAPA_ENLACE.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="timers_app_sonar.c" tooltip="SONAR/ICI-COM/APP/TEMPORIZADO/timers_app_sonar.c">
+<persistable path="/SONAR/ICI-COM/APP/TEMPORIZADO/timers_app_sonar.c"/>
 </file>
 </mruList>
 </workbench>

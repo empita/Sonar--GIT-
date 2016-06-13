@@ -53,14 +53,14 @@ error_PC_read_t leerDatosPC(char* buffer, int len){
 
 	enviarDataOutput("READY", 5);
 	configurar_timeOut_PC(500); // Aca ya hace timeOut_PC = 0
-	iniciar_timeOut_PC();
+	//iniciar_timeOut_PC();
 
 	// Hay que entrar siempre con SET para leer datos desde la PC
 	while(leerDataInput(buffer, len) != 1);
 
 	while(mensajeRXListo == RESET && timeout_PC == RESET); // Espera por uno de los dos
 
-	parar_timeOut_PC();
+	//parar_timeOut_PC();
 	// Cuando sale del while, es necesario ver por cuál de las dos condiciones salió
 	if(timeout_PC == SET){
 		return PC_READ_TIMEOUT;
@@ -79,6 +79,7 @@ error_PC_read_t leerDatosPC(char* buffer, int len){
 
 		else
 			// SINO ESTÁ BIEN
+			GPIO_ToggleBits(GPIOD, GPIO_Pin_4);
 			return PC_READ_OK;
 	}
 	else {  /// ERROR GRAVE
